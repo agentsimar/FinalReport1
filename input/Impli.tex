@@ -324,41 +324,15 @@ Web site should be easy to use. Instructions should be provided clearly. Check i
 instructions are correct meaning whether they satisfy the purpose. Main menu should be
 provided on each page. It should be consistent.
 
-\subsection{Interface Testing}
-The main interfaces are:
-\\ i. Web server and application server interface
-\\ ii. Application server and database server interface
-Check if all the interactions between these servers are executed properly. Errors are handled
-properly. If database or web server returns any error message for any query by application
-server, then application server should catch and display these error messages appropriately to
-users. Check what happens if user interrupts any transaction in-between? Check what happens
-if connection to web server is reset in between?
+
 \subsection{Compatibility Testing}
 Compatibility of your web site is very important testing aspect. See which compatibility test is
 to be executed:
-\\i. Browser compatibility
-\\ii. Operating system compatibility
-\\iii. Mobile browsing
-\\iv. Printing options
+\\i. Operating system compatibility
+\\ii. Computer processing compatibility
+
 \subsection{Performance Testing}
-Web application should sustain to heavy load. Web performance testing should include:
-\\i. Web Load Testing
-\\ii. Web Stress Testing
-
-\subsection{Security Testing}
-\begin{itemize}
-
-
-\item Test by pasting internal URL directly into browser address bar without login.
-Internal pages should not open.
-\item If you are logged in using username and password and browsing internal pages,
-then try changing URL options directly, i.e., If you are checking some publisher site
-statistics with publisher site ID= 123. Try directly changing the URL site ID parameter
-to different site ID which is not related to logged in user. Access should be denied for
-this user to view others stats.
-\item Try some invalid inputs in input fields like login username, password, input text
-boxes. Check the system reaction on all invalid inputs.
-iv. Web directories or files should not be accessible directly unless given download
-option.
-\end{itemize}
+Desktop application should sustain to heavy load. Desktop performance testing should include:
+\\i. Load Testing
+\\ii. Stress Testing
 
